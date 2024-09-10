@@ -1,0 +1,86 @@
+﻿/* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    background-color: #F5F3EF;
+
+    /* CABEÇALHO  */
+    .cabecalho {
+    position: fixed;
+    height: 81px;
+    width: 100%;
+    z-index: 10000;
+    background-color: #ffffff;
+
+    /* permite que elementos tenham posições ABSOLUTAS dentro do cabeçalho */
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.row {
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.box img {
+    width: 100%; 
+    height: 100%;
+}
+
+    .logomarca {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 40px;
+    width: 40px;
+    padding-top: 15px;
+}
+
+.barra-titulo img{
+    position: absolute;
+    top: 15px;
+    left: 41%;
+    right: 0;
+    height: 40px;
+    text-align:center;
+    padding-top:14px;
+    background-color: #ffffff;
+}
+
+.barra-menu {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    right: 0;
+    height: 40px;
+    text-align:right;
+    padding-top: 14px;
+
+}
+
+    .barra-menu a {
+        color: #333333;
+        font-size: 16px;
+        margin-left: 1px;
+        margin-right: 10px;
+        padding-bottom: 2px;
+        text-decoration: none;
+    }
+
+        .barra-menu a:hover {
+            color: black;
+            border-bottom: 3px solid black;
+        }
+
+
+.conteudo {
+    min-height: 800px;
+    padding-top: 100px;
+}
+
+.rodape {
+    height: 200px;
+    background-color: #D8CFC4;
+}
+
